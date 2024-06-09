@@ -4,12 +4,12 @@ export default function Home() {
   return (
     <main class='m-4'>
       <section className="grid grid-cols-1 grow bg-white rounded shadow-sm px-3">
-        <div>
-          <h1 className="text-3xl font-semibold text-center text-neutral-900">Convenience and licensing that empowers</h1>
-          <p className="text-base font-semibold text-center text-indigo-700">Best-in-class support</p>
-          <p className="text-lg font-normal text-neutral-600 text-center">In a world where storytelling constantly evolves, don&apos;t let licensing and poor support hold you down.</p>
-          <figure className="relative">
-            <Image className="w-[319px] h-[180px] rounded-lg" src='/featured-left.jpg' alt='Abstract features image' width={319} height={180} priority />
+        <div className="flex flex-col">
+          <h1 className="text-3xl font-semibold text-center text-neutral-900 order-1">Convenience and licensing that empowers</h1>
+          <p className="text-base font-semibold text-center text-indigo-700 order-0">Best-in-class support</p>
+          <p className="text-lg font-normal text-neutral-600 text-center order-3">In a world where storytelling constantly evolves, don&apos;t let licensing and poor support hold you down.</p>
+          <figure className="relative order-3 my-12">
+            <Image className="w-[319px] h-[180px] rounded-lg shadow-lg" src='/featured-left.jpg' alt='Abstract features image' width={319} height={180} priority />
             <figcaption className="sr-only">Abstracted features section image</figcaption>
           </figure>
         </div>
