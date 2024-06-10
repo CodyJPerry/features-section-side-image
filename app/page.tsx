@@ -6,13 +6,13 @@ export default function Home() {
     <main class='m-4'>
       <section className='grid grid-cols-1 grow bg-white rounded shadow-sm px-3 py-12'>
         <div className='flex flex-col'>
-          <h1 className='text-3xl font-semibold text-center text-neutral-900 order-1 mt-3 mb-5'>
+          <h1 className='text-3xl md:text-5xl font-semibold text-center text-neutral-900 order-1 mt-3 mb-5'>
             Convenience and licensing that empowers
           </h1>
           <p className='text-base font-semibold text-center text-indigo-700 order-0'>
             Best-in-class support
           </p>
-          <p className='text-lg font-normal text-neutral-600 text-center order-3'>
+          <p className='text-lg md:text-xl font-normal text-neutral-600 text-center order-3'>
             In a world where storytelling constantly evolves, don&apos;t let
             licensing and poor support hold you down.
           </p>
