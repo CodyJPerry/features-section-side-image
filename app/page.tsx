@@ -10,14 +10,14 @@ export default function Home() {
           <p className="text-base font-semibold text-center text-indigo-700 order-0">Best-in-class support</p>
           <p className="text-lg font-normal text-neutral-600 text-center order-3">In a world where storytelling constantly evolves, don&apos;t let licensing and poor support hold you down.</p>
           <figure className="relative order-3 my-12">
-            <Image className="rounded-lg shadow-lg max-h-[180px]" src='/featured-left.jpg' alt='Abstract features image' width={592} height={394} layout="responsive" priority />
+            <Image className="rounded-lg shadow-lg max-h-[180px] object-cover" src='/featured-left.jpg' alt='Abstract features image' width={592} height={394} layout="responsive" priority />
             <figcaption className="sr-only">Abstracted features section image</figcaption>
           </figure>
         </div>
         <div>
           <ul className="flex flex-col gap-10">
-            <li>
-              <span className="h-12 w-12 bg-white shadow rounded-full flex items-center justify-center">
+            <li className="flex gap-x-5">
+              <span className="h-12 w-12 bg-white shadow rounded-full flex items-center justify-center p-3">
                 <RiRocket2Line className="text-indigo-700 h-6 w-6" />
               </span>
               <div>
@@ -25,8 +25,8 @@ export default function Home() {
                 <p className="text-base font-normal text-neutral-600">Our robust servers are primed to deliver the highest resolution images swiftly, ensuring a smooth download experience</p>
               </div>
             </li>
-            <li>
-              <span className="h-12 w-12 bg-white shadow rounded-full flex items-center justify-center">
+            <li className="flex gap-5">
+              <span className="h-12 w-12 bg-white shadow rounded-full flex items-center justify-center p-3">
                 <RiP2pLine className="text-indigo-700 h-6 w-6" />
               </span>
               <div>
@@ -34,8 +34,8 @@ export default function Home() {
                 <p className="text-base font-normal text-neutral-600">Your single account can accommodate multiple users simultaneously downloading without any disruptions, streamlining teamwork and productivity.</p>
               </div>
             </li>
-            <li>
-              <span className="h-12 w-12 bg-white shadow rounded-full flex items-center justify-center">
+            <li className="flex gap-5">
+              <span className="h-12 w-12 bg-white shadow rounded-full flex items-center justify-center p-3">
                 <RiCopyrightLine className="text-indigo-700 h-6 w-6" />
               </span>
               <div>
