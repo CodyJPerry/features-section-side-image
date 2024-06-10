@@ -17,25 +17,31 @@ export default function Home() {
         <div>
           <ul className="flex flex-col gap-10">
             <li>
+              <span className="h-12 w-12 bg-white shadow rounded-full flex items-center justify-center">
+                <RiRocket2Line className="text-indigo-700 h-6 w-6" />
+              </span>
               <div>
-                <RiRocket2Line className="text-indigo-700" />
                 <h3 className="text-lg font-semibold text-neutral-900">Faster downloads</h3>
+                <p className="text-base font-normal text-neutral-600">Our robust servers are primed to deliver the highest resolution images swiftly, ensuring a smooth download experience</p>
               </div>
-              <p className="text-base font-normal text-neutral-600">Our robust servers are primed to deliver the highest resolution images swiftly, ensuring a smooth download experience</p>
             </li>
             <li>
+              <span className="h-12 w-12 bg-white shadow rounded-full flex items-center justify-center">
+                <RiP2pLine className="text-indigo-700 h-6 w-6" />
+              </span>
               <div>
-                <RiP2pLine className="text-indigo-700" />
                 <h3 className="text-lg font-semibold text-neutral-900">Convenience for teams</h3>
+                <p className="text-base font-normal text-neutral-600">Your single account can accommodate multiple users simultaneously downloading without any disruptions, streamlining teamwork and productivity.</p>
               </div>
-              <p className="text-base font-normal text-neutral-600">Your single account can accommodate multiple users simultaneously downloading without any disruptions, streamlining teamwork and productivity.</p>
             </li>
             <li>
+              <span className="h-12 w-12 bg-white shadow rounded-full flex items-center justify-center">
+                <RiCopyrightLine className="text-indigo-700 h-6 w-6" />
+              </span>
               <div>
-                <RiRocket2Line className="text-indigo-700" />
                 <h3 className="text-lg font-semibold text-neutral-900">Faster downloads</h3>
+                <p className="text-base font-normal text-neutral-600">Our straightforward, royalty-free licensing means your chosen images are yours to innovate with, without the hassle of negotiating usage rights for every new project.</p>
               </div>
-              <p className="text-base font-normal text-neutral-600">Our straightforward, royalty-free licensing means your chosen images are yours to innovate with, without the hassle of negotiating usage rights for every new project.</p>
             </li>
           </ul>
         </div>
