@@ -42,9 +42,9 @@ export default function Home() {
                 <span className='sr-only'>Rocket Icon</span>
               </span>
               <div>
-                <h3 className='text-lg font-semibold text-neutral-900 mt-3 mb-2'>
+                <h2 className='text-lg font-semibold text-neutral-900 mt-3 mb-2'>
                   Faster downloads
-                </h3>
+                </h2>
                 <p className='text-base font-normal text-neutral-600'>
                   Our robust servers are primed to deliver the highest
                   resolution images swiftly, ensuring a smooth download
@@ -61,9 +61,9 @@ export default function Home() {
                 <span className='sr-only'>P2p icon</span>
               </span>
               <div>
-                <h3 className='text-lg font-semibold text-neutral-900 mt-3 mb-2'>
+                <h2 className='text-lg font-semibold text-neutral-900 mt-3 mb-2'>
                   Convenience for teams
-                </h3>
+                </h2>
                 <p className='text-base font-normal text-neutral-600'>
                   Your single account can accommodate multiple users
                   simultaneously downloading without any disruptions,
@@ -80,9 +80,9 @@ export default function Home() {
                 <span className='sr-only'>Copyright icon</span>
               </span>
               <div>
-                <h3 className='text-lg font-semibold text-neutral-900 mt-3 mb-2'>
+                <h2 className='text-lg font-semibold text-neutral-900 mt-3 mb-2'>
                   Faster downloads
-                </h3>
+                </h2>
                 <p className='text-base font-normal text-neutral-600'>
                   Our straightforward, royalty-free licensing means your chosen
                   images are yours to innovate with, without the hassle of

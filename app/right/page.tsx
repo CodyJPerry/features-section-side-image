@@ -28,9 +28,9 @@ export default function Home() {
                 <span className='sr-only'>HD Icon</span>
               </span>
               <div>
-                <h3 className='text-lg font-semibold text-neutral-900 mt-3 mb-2'>
+                <h2 className='text-lg font-semibold text-neutral-900 mt-3 mb-2'>
                   5K resolution support
-                </h3>
+                </h2>
                 <p className='text-base font-normal text-neutral-600'>
                   All images boast a minimum resolution of 5K, ensuring crisp,
                   crystal-clear quality.
@@ -46,9 +46,9 @@ export default function Home() {
                 <span className='sr-only'>Water Icon</span>
               </span>
               <div>
-                <h3 className='text-lg font-semibold text-neutral-900 mt-3 mb-2'>
+                <h2 className='text-lg font-semibold text-neutral-900 mt-3 mb-2'>
                   From water to glass
-                </h3>
+                </h2>
                 <p className='text-base font-normal text-neutral-600'>
                   We offer a wide array of abstractions, ranging from water to
                   glass, and encompassing various styles including 3D and
@@ -65,9 +65,9 @@ export default function Home() {
                 <span className='sr-only'>Rainbow Icon</span>
               </span>
               <div>
-                <h3 className='text-lg font-semibold text-neutral-900 mt-3 mb-2'>
+                <h2 className='text-lg font-semibold text-neutral-900 mt-3 mb-2'>
                   Portrait or landscape
-                </h3>
+                </h2>
                 <p className='text-base font-normal text-neutral-600'>
                   Effortlessly adapt your images for any platform - whether
                   it&apos;s a stunning wallpaper or captivating Instagram reels
