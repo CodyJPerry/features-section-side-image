@@ -39,7 +39,7 @@ export default function Home() {
                   className='text-indigo-700 h-6 w-6'
                   aria-hidden='true'
                 />
-                <span class='sr-only'>Rocket Icon</span>
+                <span className='sr-only'>Rocket Icon</span>
               </span>
               <div>
                 <h3 className='text-lg font-semibold text-neutral-900 mt-3 mb-2'>
@@ -58,7 +58,7 @@ export default function Home() {
                   className='text-indigo-700 h-6 w-6'
                   aria-hidden='true'
                 />
-                <span class='sr-only'>P2p icon</span>
+                <span className='sr-only'>P2p icon</span>
               </span>
               <div>
                 <h3 className='text-lg font-semibold text-neutral-900 mt-3 mb-2'>
@@ -77,7 +77,7 @@ export default function Home() {
                   className='text-indigo-700 h-6 w-6'
                   aria-hidden='true'
                 />
-                <span class='sr-only'>Copyright icon</span>
+                <span className='sr-only'>Copyright icon</span>
               </span>
               <div>
                 <h3 className='text-lg font-semibold text-neutral-900 mt-3 mb-2'>
