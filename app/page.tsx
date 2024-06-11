@@ -38,7 +38,7 @@ export default function Home() {
                 <RiRocket2Line className='text-indigo-700 h-6 w-6' />
               </span>
               <div>
-                <h3 className='text-lg font-semibold text-neutral-900'>
+                <h3 className='text-lg font-semibold text-neutral-900 mt-3 mb-2'>
                   Faster downloads
                 </h3>
                 <p className='text-base font-normal text-neutral-600'>
@@ -53,7 +53,7 @@ export default function Home() {
                 <RiP2pLine className='text-indigo-700 h-6 w-6' />
               </span>
               <div>
-                <h3 className='text-lg font-semibold text-neutral-900'>
+                <h3 className='text-lg font-semibold text-neutral-900 mt-3 mb-2'>
                   Convenience for teams
                 </h3>
                 <p className='text-base font-normal text-neutral-600'>
@@ -68,7 +68,7 @@ export default function Home() {
                 <RiCopyrightLine className='text-indigo-700 h-6 w-6' />
               </span>
               <div>
-                <h3 className='text-lg font-semibold text-neutral-900'>
+                <h3 className='text-lg font-semibold text-neutral-900 mt-3 mb-2'>
                   Faster downloads
                 </h3>
                 <p className='text-base font-normal text-neutral-600'>
