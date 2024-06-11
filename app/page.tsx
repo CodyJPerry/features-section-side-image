@@ -3,7 +3,7 @@ import { RiRocket2Line, RiP2pLine, RiCopyrightLine } from 'react-icons/ri';
 
 export default function Home() {
   return (
-    <main class='m-4' role='main'>
+    <main className='m-4' role='main'>
       <section className='grid grid-cols-1 grow bg-white rounded shadow-sm px-3 py-12 md:py-16 lg:py-24 lg:px-24'>
         <div className='flex flex-col'>
           <h1 className='text-3xl md:text-5xl font-semibold text-center text-neutral-900 order-1 mt-3 mb-5'>
