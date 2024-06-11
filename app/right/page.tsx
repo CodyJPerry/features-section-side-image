@@ -3,7 +3,7 @@ import { RiHdLine, RiWaterPercentLine, RiRainbowLine } from 'react-icons/ri';
 
 export default function Home() {
   return (
-    <main class='m-4'>
+    <main class='m-4' role='main'>
       <section className='grid grid-cols-1 grow bg-white rounded shadow-sm px-3 py-12 md:py-16 lg:py-24 lg:px-24'>
         <div className='flex flex-col'>
           <h1 className='text-3xl md:text-5xl font-semibold text-center text-neutral-900 order-1 mt-3 mb-5'>
@@ -18,10 +18,14 @@ export default function Home() {
           </p>
         </div>
         <div className='lg:grid lg:grid-cols-2 lg:gap-8 lg:mt-16'>
-          <ul className='flex flex-col gap-10 order-2 lg:order-2'>
+          <ul className='flex flex-col gap-10 order-2 lg:order-2' role='list'>
             <li className='flex gap-x-5'>
               <span className='h-12 w-12 bg-white shadow rounded-full flex items-center justify-center p-3'>
-                <RiHdLine className='text-indigo-700 h-6 w-6' />
+                <RiHdLine
+                  className='text-indigo-700 h-6 w-6'
+                  aria-hidden='true'
+                />
+                <span className='sr-only'>HD Icon</span>
               </span>
               <div>
                 <h3 className='text-lg font-semibold text-neutral-900 mt-3 mb-2'>
@@ -35,7 +39,11 @@ export default function Home() {
             </li>
             <li className='flex gap-5'>
               <span className='h-12 w-12 bg-white shadow rounded-full flex items-center justify-center p-3'>
-                <RiWaterPercentLine className='text-indigo-700 h-6 w-6' />
+                <RiWaterPercentLine
+                  className='text-indigo-700 h-6 w-6'
+                  aria-hidden='true'
+                />
+                <span className='sr-only'>Water Icon</span>
               </span>
               <div>
                 <h3 className='text-lg font-semibold text-neutral-900 mt-3 mb-2'>
@@ -50,7 +58,11 @@ export default function Home() {
             </li>
             <li className='flex gap-5'>
               <span className='h-12 w-12 bg-white shadow rounded-full flex items-center justify-center p-3'>
-                <RiRainbowLine className='text-indigo-700 h-6 w-6' />
+                <RiRainbowLine
+                  className='text-indigo-700 h-6 w-6'
+                  aria-hidden='true'
+                />
+                <span className='sr-only'>Rainbow Icon</span>
               </span>
               <div>
                 <h3 className='text-lg font-semibold text-neutral-900 mt-3 mb-2'>
